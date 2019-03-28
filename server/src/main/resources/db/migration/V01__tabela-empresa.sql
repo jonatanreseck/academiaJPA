@@ -252,7 +252,7 @@ CREATE TABLE IF NOT EXISTS `academiaJPA`.`serie` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `dia` INT NULL,
   `exercicio_id` INT NULL,
-  `qtdrepeticao` INT NULL,
+  `qtd_repeticao` INT NULL,
   `peso` INT NULL,
   `obs` VARCHAR(255) NULL,
   `pessoa_id` INT NULL,
